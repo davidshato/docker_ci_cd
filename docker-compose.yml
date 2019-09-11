@@ -1,0 +1,6 @@
+version: '3'
+services:
+        websever:
+                image: davidshato/mywebsite
+                ports: 
+                     - "81:80"
